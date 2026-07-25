@@ -22,14 +22,14 @@ export default function HomePage() {
       id: "entertainment",
       tag: "Entertainment",
       title: "Know what's new",
-      description: "Discuss your favorite blockbusters, review new musical releases, debate pop-culture theories, and share media lists with like-minded friends in active circles.",
+      description: "From action-packed sci-fi blockbusters to the latest movie releases, stay updated with everything in cinema. Review films, debate epic visual effects, and explore curated watchlists with fellow movie enthusiasts.",
       image: cat4,
     },
     {
       id: "technology",
       tag: "Technology",
       title: "Build the Future",
-      description: "From web development to machine learning, collaborate with developers and innovators globally to share codebase tricks, work on open source projects, and discuss tech trends.",
+      description: "Step into the digital matrix of modern software. Collaborate with developers on open-source repositories, share full-stack coding tricks, explore AI innovations, and shape the tech landscape together.",
       image: cat3,
     },
     {

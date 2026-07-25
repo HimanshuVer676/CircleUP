@@ -25,8 +25,8 @@ export default function Create() {
     e.preventDefault();
 
     // Client-side validation
-    if (!formData.category) {
-      toast.error("Please select a category");
+    if (!formData.category.trim()) {
+      toast.error("Please enter a category");
       return;
     }
     if (!image) {
@@ -98,27 +98,16 @@ export default function Create() {
             <label htmlFor="category" className="form-label create-label">
               Category
             </label>
-            <select
-              className="form-select"
+            <input
+              type="text"
+              className="form-control"
               id="category"
               name="category"
+              placeholder="Enter category (e.g. Technology, Education)"
               value={formData.category}
               onChange={handleChange}
               required
-            >
-              <option value="" disabled>
-                Select a category
-              </option>
-              <option value="Education">Education</option>
-              <option value="Entertainment">Entertainment</option>
-              <option value="Technology">Technology</option>
-              <option value="Sports">Sports &amp; Fitness</option>
-              <option value="Gaming">Gaming</option>
-              <option value="Cultural">Cultural</option>
-              <option value="Politics">Politics</option>
-              <option value="Comedy">Comedy</option>
-              <option value="Other">Other</option>
-            </select>
+            />
           </div>
 
           {/* Image */}
