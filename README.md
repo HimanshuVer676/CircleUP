@@ -170,9 +170,9 @@ cd CircleUp
 | `PORT` | Yes | Port number for Express server | `8000` |
 | `MONGO_URI` | Yes | MongoDB Connection String | `mongodb://127.0.0.1:27017/CircleUp` or Mongo Atlas URI |
 | `JWT_SECRET` | Yes | Secret key for signing authentication tokens | `your_secret_key` |
-| `CLOUD_NAME` | Yes | Cloudinary account name | `dxljsxe0q` |
-| `CLOUD_API_KEY` | Yes | Cloudinary API Key | `985978586283482` |
-| `CLOUD_API_SECRET` | Yes | Cloudinary API Secret | `wLtnNWc0kT...` |
+| `CLOUD_NAME` | Yes | Cloudinary account name | `hskhf....` |
+| `CLOUD_API_KEY` | Yes | Cloudinary API Key | `62688.....` |
+| `CLOUD_API_SECRET` | Yes | Cloudinary API Secret | `fjsklf...` |
 
 ---
 
