@@ -11,7 +11,7 @@ const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
         folder: 'circleup_DEV',
-        allowed_formats: ['png', 'jpg', 'jpeg', 'webp', "avif"],
+        allowed_formats: ['png', 'jpg', 'jpeg', 'webp', 'avif'],
     },
 });
 
